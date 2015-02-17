@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eef-model="http://www.eclipse.org/emf/eef/editingmodel/1.0.0" xmlns:eef-views="http://www.eclipse.org/emf/eef/views/1.0.0">
+  <eef-model:PropertiesEditingModel name="scxml Binding Settings" id="org.eclipse.emf.eef.runtime.ui.swt.genericBindingSetting">
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.0"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/version"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/scxmlScxmlMix"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/state"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/parallel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/final"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/datamodel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/binding"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/datamodel1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/exmode"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/initial"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.0/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/name"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScxmlType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.1"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/mixed"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/xSISchemaLocation"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/assign"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/cancel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/content"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/data"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/datamodel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/donedata"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/else"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/elseif"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/final"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.11"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/finalize"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.12"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/foreach"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.13"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/history"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.14"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/if"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.15"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/initial"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.16"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/invoke"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.17"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/log"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.18"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/onentry"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.19"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/onexit"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.20"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/parallel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.21"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/param"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.22"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/raise"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.23"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.24"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/scxml"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.25"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/send"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.26"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/state"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.1/@elements.0/@elements.27"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//DocumentRoot/transition"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.2"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.2/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType/location"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType/mixed"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.2/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType/attr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.2/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType/expr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.2/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType/type"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlAssignType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlCancelType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.3"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlCancelType/scxmlExtraContent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlCancelType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.3/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlCancelType/sendid"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.3/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlCancelType/sendidexpr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlCancelType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlContentType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.4"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlContentType/mixed"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlContentType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.4/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlContentType/expr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlContentType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDatamodelType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.5"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.5/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDatamodelType/data"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDatamodelType/scxmlExtraContent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDatamodelType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDatamodelType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDataType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.6"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.6/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDataType/id"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDataType/mixed"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDataType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.6/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDataType/expr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.6/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDataType/src"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDataType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDonedataType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.7"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.7/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDonedataType/content"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.7/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDonedataType/param"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlDonedataType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlElseifType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.8"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.8/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlElseifType/cond"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlElseifType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlElseType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.9"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlElseType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.10"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/scxmlCoreExecutablecontent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/raise"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/if"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/foreach"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/send"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/assign"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/log"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.10/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/cancel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalizeType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.11"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType/scxmlFinalMix"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.11/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType/onentry"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.11/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType/onexit"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.11/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType/donedata"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.11/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType/id"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlFinalType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.12"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/array"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/item"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/scxmlCoreExecutablecontent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/raise"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/if"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/foreach"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/send"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/assign"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/log"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/cancel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.12/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/index"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlForeachType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.13"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/scxmlExtraContent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.13/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/transition"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/scxmlExtraContent1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/any1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.13/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/id"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.13/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/type"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlHistoryType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.14"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/cond"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/scxmlCoreExecutablecontent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/raise"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/if"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/foreach"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/send"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/assign"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/log"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/cancel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/elseif"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/scxmlCoreExecutablecontent1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/any1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/raise1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.11"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/if1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.12"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/foreach1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.13"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/send1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.14"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/script1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.15"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/assign1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.16"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/log1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.17"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/cancel1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.18"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/else"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/scxmlCoreExecutablecontent2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/any2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.19"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/raise2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.20"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/if2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.21"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/foreach2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.22"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/send2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.23"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/script2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.24"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/assign2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.25"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/log2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.14/@elements.0/@elements.26"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/cancel2"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlIfType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInitialType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.15"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInitialType/scxmlExtraContent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInitialType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.15/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInitialType/transition"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInitialType/scxmlExtraContent1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInitialType/any1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInitialType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.16"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/scxmlInvokeMix"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/content"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/param"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/finalize"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/autoforward"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/id"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/idlocation"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/namelist"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/src"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/srcexpr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/type"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.16/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/typeexpr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlInvokeType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlLogType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.17"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlLogType/scxmlExtraContent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlLogType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.17/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlLogType/expr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.17/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlLogType/label"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlLogType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.18"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/scxmlCoreExecutablecontent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/raise"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/if"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/foreach"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/send"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/assign"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/log"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.18/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/cancel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnentryType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.19"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/scxmlCoreExecutablecontent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/raise"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/if"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/foreach"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/send"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/assign"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/log"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.19/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/cancel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlOnexitType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.20"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/scxmlParallelMix"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/onentry"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/onexit"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/transition"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/state"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/parallel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/history"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/datamodel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/invoke"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.20/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/id"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParallelType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParamType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.21"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.21/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParamType/name"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParamType/scxmlExtraContent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParamType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.21/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParamType/expr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.21/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParamType/location"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlParamType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlRaiseType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.22"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.22/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlRaiseType/event"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlRaiseType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScriptType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.23"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScriptType/mixed"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScriptType/scxmlExtraContent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScriptType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.23/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScriptType/src"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlScriptType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.24"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/scxmlSendMix"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/content"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/param"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/delay"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/delayexpr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/event"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/eventexpr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/id"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/idlocation"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/namelist"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/target"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/targetexpr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.11"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/type"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.24/@elements.0/@elements.12"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/typeexpr"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlSendType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.25"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/scxmlStateMix"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/onentry"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/onexit"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/transition"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/initial"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/state"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/parallel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/final"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/history"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/datamodel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/invoke"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/id"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.25/@elements.0/@elements.11"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/initial1"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlStateType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <bindings>
+      <eClass href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType"/>
+      <views xsi:type="eef-model:EObjectView" definition="/1/@views.26"/>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/scxmlCoreExecutablecontent"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/any"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.0"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/raise"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.1"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/if"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.2"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/foreach"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.3"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/send"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.4"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/script"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.5"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/assign"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.6"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/log"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.7"/>
+        <feature xsi:type="ecore:EReference" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/cancel"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.8"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/cond"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.9"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/event"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.10"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/target"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <editor xsi:type="eef-model:EObjectEditor" definition="/1/@views.26/@elements.0/@elements.11"/>
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/type"/>
+      </propertyBindings>
+      <propertyBindings xsi:type="eef-model:EStructuralFeatureBinding">
+        <feature xsi:type="ecore:EAttribute" href="platform:/resource/org.w3c.scxml/model/scxml.ecore#//ScxmlTransitionType/anyAttribute"/>
+      </propertyBindings>
+    </bindings>
+    <involvedModels href="platform:/resource/org.w3c.scxml/model/scxml.ecore#/"/>
+  </eef-model:PropertiesEditingModel>
+  <eef-views:ViewsRepository name="scxml View Repository">
+    <views name="ScxmlScxmlType">
+      <elements xsi:type="eef-views:Container" name="ScxmlScxmlType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="version">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="state">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="parallel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="final">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="datamodel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="binding">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.5"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="datamodel1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="exmode">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.5"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="initial">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="name">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="DocumentRoot">
+      <elements xsi:type="eef-views:Container" name="DocumentRoot">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="xMLNSPrefixMap">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="xSISchemaLocation">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="content">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="data">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="datamodel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="donedata">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="else">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="elseif">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="final">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="finalize">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="history">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="initial">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="invoke">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="onentry">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="onexit">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="parallel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="param">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="raise">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="scxml">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="state">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="transition">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlAssignType">
+      <elements xsi:type="eef-views:Container" name="ScxmlAssignType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="location">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="attr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="expr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="type">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.5"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlCancelType">
+      <elements xsi:type="eef-views:Container" name="ScxmlCancelType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="sendid">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="sendidexpr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlContentType">
+      <elements xsi:type="eef-views:Container" name="ScxmlContentType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="expr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlDatamodelType">
+      <elements xsi:type="eef-views:Container" name="ScxmlDatamodelType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="data">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlDataType">
+      <elements xsi:type="eef-views:Container" name="ScxmlDataType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="id">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="expr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="src">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlDonedataType">
+      <elements xsi:type="eef-views:Container" name="ScxmlDonedataType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="content">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="param">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlElseifType">
+      <elements xsi:type="eef-views:Container" name="ScxmlElseifType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="cond">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlElseType">
+      <elements xsi:type="eef-views:Container" name="ScxmlElseType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+      </elements>
+    </views>
+    <views name="ScxmlFinalizeType">
+      <elements xsi:type="eef-views:Container" name="ScxmlFinalizeType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="raise">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlFinalType">
+      <elements xsi:type="eef-views:Container" name="ScxmlFinalType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="onentry">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="onexit">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="donedata">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="id">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlForeachType">
+      <elements xsi:type="eef-views:Container" name="ScxmlForeachType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="array">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="item">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="raise">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="index">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlHistoryType">
+      <elements xsi:type="eef-views:Container" name="ScxmlHistoryType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="transition">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="id">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="type">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.5"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlIfType">
+      <elements xsi:type="eef-views:Container" name="ScxmlIfType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="cond">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="raise">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="elseif">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="raise1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="else">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="raise2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel2">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlInitialType">
+      <elements xsi:type="eef-views:Container" name="ScxmlInitialType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="transition">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.4"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlInvokeType">
+      <elements xsi:type="eef-views:Container" name="ScxmlInvokeType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="content">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="param">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="finalize">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="autoforward">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.5"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="id">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="idlocation">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="namelist">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="src">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="srcexpr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="type">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="typeexpr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlLogType">
+      <elements xsi:type="eef-views:Container" name="ScxmlLogType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="expr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="label">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlOnentryType">
+      <elements xsi:type="eef-views:Container" name="ScxmlOnentryType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="raise">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlOnexitType">
+      <elements xsi:type="eef-views:Container" name="ScxmlOnexitType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="raise">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlParallelType">
+      <elements xsi:type="eef-views:Container" name="ScxmlParallelType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="onentry">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="onexit">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="transition">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="state">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="parallel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="history">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="datamodel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="invoke">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="id">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlParamType">
+      <elements xsi:type="eef-views:Container" name="ScxmlParamType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="name">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="expr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="location">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlRaiseType">
+      <elements xsi:type="eef-views:Container" name="ScxmlRaiseType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="event">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlScriptType">
+      <elements xsi:type="eef-views:Container" name="ScxmlScriptType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="src">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlSendType">
+      <elements xsi:type="eef-views:Container" name="ScxmlSendType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="content">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="param">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="delay">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="delayexpr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="event">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="eventexpr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="id">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="idlocation">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="namelist">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="target">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="targetexpr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="type">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="typeexpr">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlStateType">
+      <elements xsi:type="eef-views:Container" name="ScxmlStateType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="onentry">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="onexit">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="transition">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="initial">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="state">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="parallel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="final">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="history">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="datamodel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="invoke">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="id">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="initial1">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+      </elements>
+    </views>
+    <views name="ScxmlTransitionType">
+      <elements xsi:type="eef-views:Container" name="ScxmlTransitionType">
+        <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.2"/>
+        <elements xsi:type="eef-views:ElementEditor" name="raise">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="if">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="foreach">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="send">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="script">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="assign">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="log">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cancel">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt/org.eclipse.emf.eef.runtime.ui.swt.view.propertyeditors.impl.emfpropertiestoolkit.EMFPropertiesToolkit#//@widgets.2"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="cond">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="event">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="target">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.0"/>
+        </elements>
+        <elements xsi:type="eef-views:ElementEditor" name="type">
+          <representation href="eeftoolkit:/org.eclipse.emf.eef.runtime.ui.swt.e3/org.eclipse.emf.eef.runtime.ui.swt.e3.internal.view.propertyeditors.impl.swttoolkit.SWTPlatformAwareToolkit#//@widgets.5"/>
+        </elements>
+      </elements>
+    </views>
+  </eef-views:ViewsRepository>
+</xmi:XMI>
